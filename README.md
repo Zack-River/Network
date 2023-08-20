@@ -9,6 +9,7 @@
                 2-unlimited number of devices connected together                                    2-unlimited number of devices connected together                 
          3-Devices can only talk with each other(on the same network only)                          3-Devices can talk with anyone like the internet                 
 
+![2  LAN vs WAN](https://github.com/Zack-River/Network/assets/111385589/10c09024-e300-4ce4-8e7d-7aedf910cf0b)
 
 
 
