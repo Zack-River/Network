@@ -40,7 +40,7 @@
 - for pc-pc or pc-router pc-switch connection.
 - cheap(price).  
 - Toss(Coxial) -----> used for tv signals.
-##  n base T ------> n refers to speed(mgb per sec)  , T refers to UTP 
+###  n base T ------> n refers to speed(mgb per sec)  , T refers to UTP 
 
 #### 10 base T (cat 5)                      
 #### 100 base T (cat 5e ----> enhanced)   
@@ -78,7 +78,7 @@
 
 
 
-## Manual Console cable( Rollover ) used to setup IPs and settings for routers for the first time:
+### Manual Console cable( Rollover ) used to setup IPs and settings for routers for the first time:
 #### verse of the straight connection:
 
 - brown
@@ -91,7 +91,7 @@
 - white orange                            
 - ![4-d  Rollover connection](https://github.com/Zack-River/Network/assets/111385589/69bacdb1-008a-4930-b918-9dfc02842ef9)
 
-## Fiber Optic:
+### 2-Fiber Optic:
 
 - Single mode( 9micron )
 - Multi mode( 62micron )(better)
