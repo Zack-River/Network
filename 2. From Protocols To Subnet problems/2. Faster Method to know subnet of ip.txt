@@ -1,0 +1,50 @@
+#actually if we used the default way to know if 2 devices on the same network it will take a long time so there's better way to do it:
+- 10.20.30.40 / 19 as example this ip we have to specify the subnet of it:
+19 means -----> 8bits + 8bits + 3bits -----> octet number 3 and BlockSize = 3 (128 64 (32) 16 8 4 2 1) = 32  so we will start from octet 3 = 0 and then add +32 each sub
+
+sub1 10.20.0.0              so our ip  = 10.20.30.40  which means it's on sub 1
+sub2 10.20.32.0             
+sub3 10.20.64.0
+sub4 10.20.96.0             etc.......
+------------------------------
+
+
+Example.2:
+- 10.15.25.35 / 21 ----->       8 + 8 + 5   OCTET 3   (128 64 32 16 (8) 4 2 1)   BlockSize = 8
+sub1 10.15.0.0
+sub2 10.15.8.0             
+sub3 10.15.16.0
+sub4 10.15.24.0             so our ip  = 10.15.25.35  which means it's on sub 4
+sub4 10.15.32.0
+------------------------------
+
+
+
+Problem.1 :    is these 2 Devices on the same Subnet?
+1- 10.70.70.7 / 10 ----->       8 + 2   OCTET 2   (128 (64) 32 16 8 4 2 1)   BlockSize = 64
+sub1 10.0.0.0
+sub2 10.64.0.0              so our ip  = 10.70.70.7  which means it's on sub 2            
+sub3 10.128.16.0
+
+2- 10.100.100.100 / 10 ----->   8 + 2   OCTET 2   (128 (64) 32 16 8 4 2 1)   BlockSize = 64
+sub1 10.0.0.0
+sub2 10.64.0.0              so our ip  = 10.100.100.100 which means it's on sub 2 
+sub3 10.128.0.0
+
+so Device(1) and Device(2) are on the same sub and network
+------------------------------
+
+
+Problem.2:      is these 2 Devices on the same Subnet?
+1- 10.10.10.10 / 21 ----->      8 + 8 + 5  OCTET 3 (128 64 32 16 (8) 4 2 1) BlockSize = 8
+sub1 10.10.0.0
+sub2 10.10.8.0              so our ip  = 10.10.10.10 which means it's on sub 2 
+sub3 10.10.16.0
+
+2- 10.10.17.10 / 21 ----->      8 + 8 + 5  OCTET 3 (128 64 32 16 (8) 4 2 1) BlockSize = 8
+sub1 10.10.0.0
+sub2 10.10.8.0
+sub3 10.10.16.0              so our ip  = 10.10.17.10 which means it's on sub 3 
+
+so Device(1) and Device(2) aren't on the same sub or network
+------------------------------
