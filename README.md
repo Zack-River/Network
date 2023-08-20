@@ -5,9 +5,9 @@
 
                                   <<<< LAN >>>>                                                                        <<<< WAN >>>>                 
                                                                                                             
-                <<Small network (area and space not as num of Devices)>>                        <<Big network ------> (countries , Corporate branches)>>    
-                <<unlimited number of devices connected together>>                                  <<unlimited number of devices connected together>>                 
-         <<Devices can only talk with each other(on the same network only)>>                        <<Devices can talk with anyone like the internet>>                 
+                1-Small network (area and space not as num of Devices)                          1-Big network ------> (countries , Corporate branches)>>    
+                2-unlimited number of devices connected together                                    2-unlimited number of devices connected together                 
+         3-Devices can only talk with each other(on the same network only)                          3-Devices can talk with anyone like the internet                 
 
 
 
