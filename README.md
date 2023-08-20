@@ -231,9 +231,9 @@
 ### Now:
                     Old:                BlockSize is +4 in the 3rd octet           New:                                               
     subnet ip = 192.168.(52).0                          --> (52+4) --> -subnet ip = 192.168.(56).0
-    first valid ip = subnet + 1 = 192.168.(52).1        --> (52+4) --> -first valid ip = 192.168.(56).1        
+    first valid ip = subnet + 1 = 192.168.(52).1        --> (52+4) --> -first valid ip = 192.168.(56).1
     last valid ip = broadcast ip - 1 = 192.168.(55).254 --> (55+4) --> -last valid ip = 192.168.(59).254
-    Broadcast ip = 192.168.(55).255                     --> (55+4) --> -Broadcast ip = 192.168.(59).255           
+    Broadcast ip = 192.168.(55).255                     --> (55+4) --> -Broadcast ip = 192.168.(59).255
 
 
 ### actually if we used the default way to know if 2 devices on the same network it will take a long time so there's better way to do it:
