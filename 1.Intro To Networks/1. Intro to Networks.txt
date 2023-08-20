@@ -1,106 +1,73 @@
-//---- NETWORKS TYPES ----//
+                                                //-------------------------- NETWORKS TYPES --------------------------//
 
-<<<< LAN >>>>
-                                                         
-1-Small network (area and space not as num of Devices).
-2-unlimited number of devices connected together.
-3-Devices can only talk with each other(on the same network only).
-
-
- <<<< WAN >>>>
-
-1-Big network ------> (countries , Corporate branches).
-2-unlimited number of devices connected together.
-3-Devices can talk with anyone like the internet.
+                                  <<<< LAN >>>>                                     |                                   <<<< WAN >>>>                 
+                                                                                    |                                                         
+1-              Small network (area and space not as num of Devices)                |            Big network ------> (countries , Corporate branches)    
+2-                  unlimited number of devices connected together                  |               unlimited number of devices connected together                 
+3-           Devices can only talk with each other(on the same network only)        |               Devices can talk with anyone like the internet                 
 
 
 
 
-//---- What do you need to Make a Network? ----//
+                                        //-------------------------- What do you need to Make a Network? --------------------------//
 
-1- Host -----> PC - End Devices
-2- Router - switch
-3- Cables (UTP - Fiber Optic)
+                                            1- Host -----> PC - End Devices   2- Router - switch     3- Cables (UTP - Fiber Optic)
 
 
 
-//---- Cable TYPES ----//
+                                                     //-------------------------- Cable TYPES --------------------------//
 
-1- UTP cables (Unshielded Twisted-Pair)
-2- Fiber Optic Cables(Light Speed)
+                                    1- UTP cables (Unshielded Twisted-Pair)                                        2- Fiber Optic Cables(Light Speed)
                              
 
-//----UTP WIRE ----//
--(Pairs of wires one of them to send and other to receive).
--(more twisted means faster data transportation).
--(wires color order is const for every connection Method).
+
+
+                                                       //-------------------------- UTP WIRE --------------------------//
+-(Pairs of wires one of them to send and other to receive).         -(more twisted means faster data transportation).       -(wires color order is const for every connection Method).
                                                         
-- 1 silky wire to reduce noise and make it More flexible.
--Connector (RJ 45).
+                                        - 1 silky wire to reduce noise and make it More flexible.               -Connector (RJ 45).
 
--works in range (1m to 100 meter).
--for pc-pc or pc-router pc-switch connection.
--cheap(price).  
+                                 -works in range (1m to 100 meter).        -for pc-pc or pc-router pc-switch connection.           -cheap(price).  
 
-- Toss(Coxial) -----> used for tv signals
+                        - Toss(Coxial) -----> used for tv signals          - 10 base T (cat 5)        - 100 base T (cat 5e ----> enhanced)     -1000 base T (cat 6)
 
-#n base T ------> n refers to speed(mgb per sec)  , T refers to UTP
-- 10 base T (cat 5)
-- 100 base T (cat 5e ----> enhanced)
--1000 base T (cat 6)
-
-                                                        
+                                                        -n base T ------> n refers to speed(mgb per sec)  , T refers to UTP
 
 
-# Straight Connection(standard) for different devices except (pc - router):
-1- white orange
-2- orange 
-3- white green 
-4- blue 
-5- white blue 
-6- green
-7- white brown 
-8- brown
+                                            # Straight Connection(standard) for different devices except (pc - router):
+                        1- white orange    2- orange     3- white green     4- blue     5- white blue     6- green    7- white brown     8- brown
 
 
-# Cross Over connection for similar Devices (pc - pc , pc - router , router - router , etc.....):
-- 1 in straight is 3 in cross over and 2 in straight is 6 in cross over:
-1- white green
-2- green 
-3- white orange 
-4- blue 
-5- white blue 
-6- orange
-7- white brown 
-8- brown
+                                            # Cross Over connection for similar Devices (pc - pc , pc - router , router - router , etc.....):
+                                                    - 1 in straight is 3 in cross over and 2 in straight is 6 in cross over:
+                        1- white green    2- green     3- white orange     4- blue     5- white blue     6- orange    7- white brown     8- brown
 
 
 
-# Manual Console cable( Rollover ) used to setup IPs and settings for routers for the first time:
--verse of the straight connection:
-1- brown
-2- white brown 
-3- green 
-4- white blue 
-5- blue 
-6- white green
-7- orange 
-8- white orange                            
+                                            # Manual Console cable( Rollover ) used to setup IPs and settings for routers for the first time:
+                                                                     -verse of the straight connection:
+                        1- brown    2- white brown     3- green     4- white blue     5- blue     6- white green    7- orange     8- white orange                            
 
-//---- Fiber Optic ----//
+                                                     //-------------------------- Fiber Optic --------------------------//
 
--Single mode( 9micron )
--Multi mode( 62micron )(better)
+                                                        -Single mode( 9micron )           -Multi mode( 62micron )(better)
 
--Connectors ( LC - FC - SC - ST )
+                                                                       -Connectors ( LC - FC - SC - ST )
 
--n base f ------> n refers to speed(mgb per sec)  , f refers to fiber optic wire
+                                                -n base f ------> n refers to speed(mgb per sec)  , f refers to fiber optic wire
 
--"fiber optic patch cored wire" is a wire which has it's "connector" and ready to plug in
+                                           -"fiber optic patch cored wire" is a wire which has it's "connector" and ready to plug in
 
--very high speed.
--works in a bigger range (500m to 80km).
--not affected by distance.
--no colors just plug it.
--servers connection etc..
--expensive.
+            -very high speed.      -works in a bigger range (500m to 80km).  -not affected by distance.  -no colors just plug it.  -servers connection etc..    -expensive.
+
+
+
+
+
+
+
+
+
+
+
+
