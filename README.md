@@ -28,7 +28,7 @@
 
 
 ## Cable TYPES:
-#### 1-UTP WIRE
+### 1-UTP WIRE
 
 - (Pairs of wires one of them to send and other to receive).
 - (more twisted means faster data transportation).
