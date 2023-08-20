@@ -159,17 +159,15 @@ subnet: 11111111.11111111.11111100.00000000 -------> 255.255.252.0
 192.168.54.3 -----> 11000000.10101000.00110110.00000011
 
         *(only 1 + 1 = 1 , other = 0)
- 1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   0   0   0   0   0   0   0   0   0   0
-+                                                                                                                               
- 1   1   0   0   0   0   0   0   1   0   1   0   1   0   0   0   0   0   1   1   0   1   1   0   0   0   0   0   0   0   1   1
- -----------------------------------------------------------------------------------------------------------------------------
- 1   1   0   0   0   0   0   0   1   0   1   0   1   0   0   0   0   0   1   1   0   1   0   0   0   0   0   0   0   0   0   0
- 11000000.10101000.00110100.00000000 -----> 192.168.52.0 / 255.255.252.0 = 192.168.52.0 / 22
- * (22) is n (num of 1s in the subnet mask) (CIDR *ClassLess InterDomain Routing*).
+  1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   0   0   0   0   0   0   0   0   0   0
+.+                                                                                                                               
+  1   1   0   0   0   0   0   0   1   0   1   0   1   0   0   0   0   0   1   1   0   1   1   0   0   0   0   0   0   0   1   1
+  -----------------------------------------------------------------------------------------------------------------------------
+  1   1   0   0   0   0   0   0   1   0   1   0   1   0   0   0   0   0   1   1   0   1   0   0   0   0   0   0   0   0   0   0
+  11000000.10101000.00110100.00000000 -----> 192.168.52.0 / 255.255.252.0 = 192.168.52.0 / 22 -----> (22) is n (num of 1s in the subnet mask) (CIDR *ClassLess InterDomain Routing*).
                                 
 
--subnet ip = 192.168.52.0
--first valid ip = subnet + 1 = 192.168.52.1
+                                    -subnet ip = 192.168.52.0               -first valid ip = subnet + 1 = 192.168.52.1
 
 #To get the broadcast ip turn h ( num of first zeros on the right in the subnet mask ) in subnet ip to 1s.
 
@@ -191,10 +189,10 @@ subnet (192.168.52.0)11000000.10101000.001101(00.00000000) -----> 11000000.10101
                     
 Now:
                 Old:                BlockSize is +4 in the 3rd octet           New:                                               
--subnet ip = 192.168.(52).0                          --> (52+4) --> -subnet ip = 192.168.(56).0
--first valid ip = subnet + 1 = 192.168.(52).1        --> (52+4) --> -first valid ip = 192.168.(56).1        
--last valid ip = broadcast ip - 1 = 192.168.(55).254 --> (55+4) --> -last valid ip = 192.168.(59).254
--Broadcast ip = 192.168.(55).255                     --> (55+4) --> -Broadcast ip = 192.168.(59).255           
+- subnet ip = 192.168.(52).0                          --> (52+4) --> -subnet ip = 192.168.(56).0
+- first valid ip = subnet + 1 = 192.168.(52).1        --> (52+4) --> -first valid ip = 192.168.(56).1        
+- last valid ip = broadcast ip - 1 = 192.168.(55).254 --> (55+4) --> -last valid ip = 192.168.(59).254
+- Broadcast ip = 192.168.(55).255                     --> (55+4) --> -Broadcast ip = 192.168.(59).255           
 
 
 #actually if we used the default way to know if 2 devices on the same network it will take a long time so there's better way to do it:
@@ -220,12 +218,12 @@ sub4 10.15.32.0
 
 
 Problem.1 :    is these 2 Devices on the same Subnet?
-1- 10.70.70.7 / 10 ----->       8 + 2   OCTET 2   (128 (64) 32 16 8 4 2 1)   BlockSize = 64
+- 10.70.70.7 / 10 ----->       8 + 2   OCTET 2   (128 (64) 32 16 8 4 2 1)   BlockSize = 64
 sub1 10.0.0.0
 sub2 10.64.0.0              so our ip  = 10.70.70.7  which means it's on sub 2            
 sub3 10.128.16.0
 
-2- 10.100.100.100 / 10 ----->   8 + 2   OCTET 2   (128 (64) 32 16 8 4 2 1)   BlockSize = 64
+- 10.100.100.100 / 10 ----->   8 + 2   OCTET 2   (128 (64) 32 16 8 4 2 1)   BlockSize = 64
 sub1 10.0.0.0
 sub2 10.64.0.0              so our ip  = 10.100.100.100 which means it's on sub 2 
 sub3 10.128.0.0
@@ -235,12 +233,12 @@ so Device(1) and Device(2) are on the same sub and network
 
 
 Problem.2:      is these 2 Devices on the same Subnet?
-1- 10.10.10.10 / 21 ----->      8 + 8 + 5  OCTET 3 (128 64 32 16 (8) 4 2 1) BlockSize = 8
+- 10.10.10.10 / 21 ----->      8 + 8 + 5  OCTET 3 (128 64 32 16 (8) 4 2 1) BlockSize = 8
 sub1 10.10.0.0
 sub2 10.10.8.0              so our ip  = 10.10.10.10 which means it's on sub 2 
 sub3 10.10.16.0
 
-2- 10.10.17.10 / 21 ----->      8 + 8 + 5  OCTET 3 (128 64 32 16 (8) 4 2 1) BlockSize = 8
+- 10.10.17.10 / 21 ----->      8 + 8 + 5  OCTET 3 (128 64 32 16 (8) 4 2 1) BlockSize = 8
 sub1 10.10.0.0
 sub2 10.10.8.0
 sub3 10.10.16.0              so our ip  = 10.10.17.10 which means it's on sub 3 
