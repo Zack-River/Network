@@ -4,4 +4,4 @@
 
 #files with strange extensions are saved files from my projects ant tries on packet tracer or GNS3.
 
-#Img files contains Methods or comparisons.
+#Img files contains Methods or comparisons or tables.
