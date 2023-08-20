@@ -287,3 +287,19 @@
 
 - so Device(1) and Device(2) aren't on the same sub or network
 ------------------------------
+
+      C:\Users\Zack River>tracert "LINK"  ----->  this command written in CMD to show all
+## IP Default Classes
+### Known from its first Octet:
+      * Class Name *     * First IP *        * Last IP *        * Default Subnet Mask *
+        Class A   From     1.0.0.0    To    126.255.255.255        Class C 255.0.0.0
+        Class B   From    128.0.0.0   To    191.255.255.255       Class B 255.255.0.0
+        Class C   From    192.0.0.0   To    223.255.255.255      Class A 255.255.255.0   
+        Class D   From    224.0.0.0   To    239.255.255.255    Reserved For Multi Casting 
+        Class E   From    240.0.0.0   To    254.255.255.255    Expermential Made as backup
+
+- Class A IPS 127.0.0.0   To 127.255.255.255  Can't Be used and is reserved for loopback Testing.
+- D , E Classes can't be used Too.
+- 127.0.0.1     Reserved For local Hosting.
+
+### MultiCasting IPs Searches for each other To Link like ZOOM
