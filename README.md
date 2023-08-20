@@ -9,7 +9,7 @@
                 2-unlimited number of devices connected together                                    2-unlimited number of devices connected together                 
          3-Devices can only talk with each other(on the same network only)                          3-Devices can talk with anyone like the internet                 
 
-![2  LAN vs WAN](https://github.com/Zack-River/Network/assets/111385589/10c09024-e300-4ce4-8e7d-7aedf910cf0b)
+  ![2  LAN vs WAN](https://github.com/Zack-River/Network/assets/111385589/10c09024-e300-4ce4-8e7d-7aedf910cf0b)
 
 
 
@@ -17,6 +17,7 @@
 
                                             1- Host -----> PC - End Devices   2- Router - switch     3- Cables (UTP - Fiber Optic)
 
+  ![3  Network example](https://github.com/Zack-River/Network/assets/111385589/6fd40956-78b8-44c8-8de5-658b118215eb)
 
 
                                                      //-------------------------- Cable TYPES --------------------------//
@@ -36,33 +37,41 @@
                         - Toss(Coxial) -----> used for tv signals          - 10 base T (cat 5)        - 100 base T (cat 5e ----> enhanced)     -1000 base T (cat 6)
 
                                                         -n base T ------> n refers to speed(mgb per sec)  , T refers to UTP
+  ![4-a  RJ45 connector for UTP cables](https://github.com/Zack-River/Network/assets/111385589/1b2649dd-d796-47cc-aef9-81e9d54a7642)
 
 
                                             # Straight Connection(standard) for different devices except (pc - router):
                         1- white orange    2- orange     3- white green     4- blue     5- white blue     6- green    7- white brown     8- brown
+  ![4-b  Straight connection](https://github.com/Zack-River/Network/assets/111385589/eac44548-4a24-4242-a3f8-fd509af56657)
 
 
                                             # Cross Over connection for similar Devices (pc - pc , pc - router , router - router , etc.....):
                                                     - 1 in straight is 3 in cross over and 2 in straight is 6 in cross over:
                         1- white green    2- green     3- white orange     4- blue     5- white blue     6- orange    7- white brown     8- brown
+  ![4-c  Crossover connection](https://github.com/Zack-River/Network/assets/111385589/4a8f05eb-d603-49ea-9843-10b6eb9fd665)
 
 
 
                                             # Manual Console cable( Rollover ) used to setup IPs and settings for routers for the first time:
                                                                      -verse of the straight connection:
                         1- brown    2- white brown     3- green     4- white blue     5- blue     6- white green    7- orange     8- white orange                            
+  ![4-d  Rollover connection](https://github.com/Zack-River/Network/assets/111385589/69bacdb1-008a-4930-b918-9dfc02842ef9)
 
 # Fiber Optic:
 
                                                         -Single mode( 9micron )           -Multi mode( 62micron )(better)
 
                                                                        -Connectors ( LC - FC - SC - ST )
+  ![5  Fiber optic cable and his connectors](https://github.com/Zack-River/Network/assets/111385589/1221f433-bca0-42cf-a976-6d746202834e)    ![5-a  Single Mode vs Multimode Fiber](https://github.com/Zack-River/Network/assets/111385589/3508ca54-bf4d-4190-802f-cedf6acbe2dc)
+
 
                                                 -n base f ------> n refers to speed(mgb per sec)  , f refers to fiber optic wire
 
                                            -"fiber optic patch cored wire" is a wire which has it's "connector" and ready to plug in
 
             -very high speed.      -works in a bigger range (500m to 80km).  -not affected by distance.  -no colors just plug it.  -servers connection etc..    -expensive.
+                                        ![6  Networking cables Comparison](https://github.com/Zack-River/Network/assets/111385589/210821aa-609b-4575-959d-38d4cc744fb8)
+
 
 
  //---- Some protocols and its use ----//
