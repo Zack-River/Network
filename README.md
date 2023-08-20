@@ -287,7 +287,7 @@
 - so Device(1) and Device(2) aren't on the same sub or network
 ------------------------------
 
-      C:\Users\Zack River>tracert "LINK"  ----->  this command written in CMD to show all
+
 ## IP Default Classes
 ### Known from its first Octet:
       * Class Name *     * First IP *        * Last IP *        * Default Subnet Mask *
@@ -297,8 +297,37 @@
         Class D   From    224.0.0.0   To    239.255.255.255    Reserved For Multi Casting 
         Class E   From    240.0.0.0   To    254.255.255.255    Expermential Made as backup
 
-- Class A IPS 127.0.0.0   To 127.255.255.255  Can't Be used and is reserved for loopback Testing.
+- Class A IPs 127.0.0.0   To 127.255.255.255  Can't Be used and is reserved for loopback Testing.
 - D , E Classes can't be used Too.
 - 127.0.0.1     Reserved For local Hosting.
 
-### MultiCasting IPs Searches for each other To Link like ZOOM
+### MultiCasting IPs Searches for each other To Link like ZOOM.
+
+#### There are only 2 important TTLs.
+- TTL 64 Means that this site or ip works on Linux OS.
+- TTL 128 Means that this site or ip works on Windows Server OS.
+
+
+## Cisco Devices and How to connect for the First Time:
+
+### Common Parts:
+- CPU ----> Processing Data and IPs(0s , 1s).
+- RAM ----> System Runs on.
+- FLASH ----> Like HDD where exist Source.bin file and Config.bin file.
+- NVRAM ----> Like HDD but for saving your configs.
+
+
+#### Switch has no Turn ON/OFF button.
+#### Router has Turn ON/OFF button.
+
+
+#### To setup Cisco Router or any router which has OS you have to Get a Roll Over Wire and Plug it in the Console port 
+- [Title](https://www.google.com/url?sa%253Di%2526url%253Dhttps%253A%252F%252Fwww.cdw.com%252Fproduct%252Ftripp-lite-rj45-to-db9f-cisco-serial-console-port-rollover-cable-6ft-6ft%252F3718050%2526psig%253DAOvVaw3dlczgp1yDWRKCakuE5Z9_%2526ust%253D1692648248145000%2526source%253Dimages%2526cd%253Dvfe%2526opi%253D89978449%2526ved%253D0CBAQjRxqFwoTCIiplJ6E7IADFQAAAAAdAAAAABAE)
+
+- after you plug it in now use the putty app to show the router terminal screen which will show first the POST then you can no Configure it.
+- Other way is same steps but virtually with packet tracer from Cisco Website.
+ 
+ ### Now You can go to the Projects Folder to see the steps and my Work.
+
+
+##  TCP vs UDP and OSI TCP Models(Layers):
