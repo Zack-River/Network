@@ -26,7 +26,7 @@
 
 
                                                        //-------------------------- UTP WIRE --------------------------//
--(Pairs of wires one of them to send and other to receive).         -(more twisted means faster data transportation).       -(wires color order is const for every connection Method).
+     -(Pairs of wires one of them to send and other to receive).      -(more twisted means faster data transportation).    -(wires color order is const for every connection Method).
                                                         
                                         - 1 silky wire to reduce noise and make it More flexible.               -Connector (RJ 45).
 
