@@ -20,6 +20,7 @@
             Router>
 - now this "Router" is called hostname which is default = "Router"  ,  and ">" is the user mode icon.
 - first we have to change the host name and give it a password, but we can't do it in the user mode so we have to lvl up.
+            
             Router>enable         "you can just write -en-".
             Router#               -----> now we are in admin mode but still not enough again so now config mode.
             Router#config
