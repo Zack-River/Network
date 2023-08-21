@@ -6,17 +6,20 @@
 - Click on the "File" tab then choose open.
 - go to the saved file directory and vowala here we are.
 
-## Usage and Explaination:
-### 1- Firstly to setup a Router we have to choose a Router, So let's Take Cisco 2911.
-### 2- Now we have to get a pc to show the terminal window on it.
-### 3- We get a Console Wire which is color "blue".
-### 4- Plug it in the "RS232" hub in the "PC or laptop" and the other side in the "Console" hub in the "Router".
-### 5- Click on "pc" and choose the "Desktop" tab and click on the "terminal" icon "Don't change anything just click OK".
-### 6- after "POST" is done you will get this message:
+## Steps:
+- Firstly to setup a Router we have to choose a Router, So let's Take Cisco 2911.
+- Now we have to get a pc to show the terminal window on it.
+- We get a Console Wire which is color "blue".
+- Plug it in the "RS232" hub in the "PC or laptop" and the other side in the "Console" hub in the "Router".
+- Click on "pc" and choose the "Desktop" tab and click on the "terminal" icon "Don't change anything just click OK".
+- after "POST" is done you will get this message:
+  
           Press RETURN to get started!
 - JUST click "ENTER".
+ 
             Would you like to enter the initial configuration dialog? [yes/no]: 
 - Type "n" or "no".
+  
             Router>
 - now this "Router" is called hostname which is default = "Router"  ,  and ">" is the user mode icon.
 - first we have to change the host name and give it a password, but we can't do it in the user mode so we have to lvl up.
