@@ -322,7 +322,10 @@
 
 
 #### To setup Cisco Router or any router which has OS you have to Get a Roll Over Wire and Plug it in the Console port 
-- [Title](https://www.google.com/url?sa%253Di%2526url%253Dhttps%253A%252F%252Fwww.cdw.com%252Fproduct%252Ftripp-lite-rj45-to-db9f-cisco-serial-console-port-rollover-cable-6ft-6ft%252F3718050%2526psig%253DAOvVaw3dlczgp1yDWRKCakuE5Z9_%2526ust%253D1692648248145000%2526source%253Dimages%2526cd%253Dvfe%2526opi%253D89978449%2526ved%253D0CBAQjRxqFwoTCIiplJ6E7IADFQAAAAAdAAAAABAE)
+- ![819_console_port](https://github.com/Zack-River/Network/assets/111385589/71635d83-8f3e-403c-8162-415c736c8c02)      ![Console-Cable2](https://github.com/Zack-River/Network/assets/111385589/29629c1f-fa0f-477d-85d9-177cf7252395)
+
+
+
 
 - after you plug it in now use the putty app to show the router terminal screen which will show first the POST then you can no Configure it.
 - Other way is same steps but virtually with packet tracer from Cisco Website.
