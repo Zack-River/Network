@@ -330,7 +330,7 @@
 - after you plug it in now use the putty app to show the router terminal screen which will show first the POST then you can no Configure it.
 - Other way is same steps but virtually with packet tracer from Cisco Website.
  
- ### Now You can go to the Projects Folder to see the steps and my Work.
+ ### Now You can go to the Projects Folder to see the steps and my Work(Project 1 and 2).
 
 
 ##  TCP vs UDP and OSI TCP Models(Layers):

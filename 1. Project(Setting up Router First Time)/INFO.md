@@ -99,7 +99,7 @@
             !
             !
             !
-            enable secret 5 $1$mERr$g.belFekn5IZA.bOprfkk0
+            enable secret 5 $1$mERr$g.belFekn5IZA.bOprfkk0          -----> see now
             !
             !
             !
@@ -108,29 +108,6 @@
             !
             ip cef
              --More--
-
-            Zack(config)#do sh int ip br          -----> we will choose a port and give it ip and subnet mask.
-
-            Interface              IP-Address      OK? Method Status                Protocol 
-            GigabitEthernet0/0     unassigned      YES unset  administratively down down          -----> we will choose port g0/0
-            GigabitEthernet0/1     unassigned      YES unset  administratively down down 
-            GigabitEthernet0/2     unassigned      YES unset  administratively down down 
-            Vlan1                  unassigned      YES unset  administratively down down
-
-            Zack(config)#int g0/0
-            Zack(config-if)#ip address 10.0.0.1 255.255.255.0
-            Zack(config-if)#do sh int ip br
-
-            Interface              IP-Address      OK? Method Status                 Protocol 
-            GigabitEthernet0/0     10.0.0.2        YES manual  administratively down down
-            GigabitEthernet0/1     unassigned      YES unset   administratively down down 
-            GigabitEthernet0/2     unassigned      YES unset   administratively down down 
-            Vlan1                  unassigned      YES unset   administratively down down
-          
-            Zack(config-if)#no shutdown             -----> to activate this port
-
-            Interface              IP-Address      OK? Method Status                 Protocol         -----> this will not appear i just show it to see that's working 
-            GigabitEthernet0/0     10.0.0.2        YES manual  administratively up   down
 
             Zack(config-if)#do copy run start       -----> to save all we did for all devices or
             Zack(config-if)#do write
