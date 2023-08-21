@@ -1,5 +1,5 @@
 # This file "Pro...pkt" is a saved file for Packet Tracer Program From Cisco
-### seeting up CISCO router and changing it's hostname and password and it's port 0 ip and activate it.
+### setting up CISCO router and changing it's hostname and password and it's port 0 ip and activate it.
 
 ## How To Use?
 - Open the packet Tracer Program.
