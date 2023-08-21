@@ -131,3 +131,4 @@
 
             Zack(config-if)#do copy run start       -----> to save all we did for all devices or
             Zack(config-if)#do write
+- ![Console connection](https://github.com/Zack-River/Network/assets/111385589/04a51cd6-b3bb-48ba-bd18-8977ce748e93)
