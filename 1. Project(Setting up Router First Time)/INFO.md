@@ -30,7 +30,7 @@
             Router(config)#       -----> now let's change the host name.
             Router(config)#hostname Zack
             Zack(config)#         -----> let's give it a password
-            Zack(config)#enable password 1234         -----> but we have a problem it's very easy to know it look:
+            Zack(config)#enable password 1234         -----> but we have a problem it's very easy to guess or hack it look:
             Zack(config)#show run      -----> we have a problem this code can be used in admin mode we have a trick.
             Zack(config)#do show run    -----> before any cade if you are in mode higher than the command you can write "do" before the command.
             Building configuration...
