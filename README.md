@@ -341,7 +341,8 @@
 - Sequence(Every Packet has a num) if amount if send of receive packets = send packets then Connection done correctly.
 - CheckSum (he turns the data into bits packets then put it into frames to make it easier to transport).
 - Testing:
-- 
+- ![CN](https://github.com/Zack-River/Network/assets/111385589/70815ebc-660e-45eb-9e01-09682af971b1)
+
 
 ### 2- UDP(User Datgram Protocol):
 - No testing.
@@ -355,4 +356,5 @@
 - in physical layer -----> bits turns to decimals or hexa decimals.
 - layers from (5 : 7) is upper layers and other is lower.
 - layer with higher num is more intelligent and complicated.
+- ![OSI MODEL - TCP LAYERS](https://github.com/Zack-River/Network/assets/111385589/f47e4115-8cdf-48df-b9b6-5a04823c2c40)
 
