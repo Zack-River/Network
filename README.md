@@ -334,3 +334,25 @@
 
 
 ##  TCP vs UDP and OSI TCP Models(Layers):
+### 1- TCP(Transmission Control Protocol):
+- Connection Oriented "Reliable".
+- 3 Ways handshake.
+- Test connection First Then Send and Receive. 
+- Sequence(Every Packet has a num) if amount if send of receive packets = send packets then Connection done correctly.
+- CheckSum (he turns the data into bits packets then put it into frames to make it easier to transport).
+- Testing:
+- 
+
+### 2- UDP(User Datgram Protocol):
+- No testing.
+- Faster.
+- Continuous (no stop) lost data can't be restored (Like streams - calls - ZOOM meetings - etc.....).
+
+## What's Layers and Models?
+### Describing for data transformation from 0s and 1s To Understandable information:
+#### OSI (Open System Interconnection) (7 STAGES) vs TCP (4 STAGES):
+- ARP(Address Resolution Protocol) is the protocol in switches(ex) which reads the mac addresses.
+- in physical layer -----> bits turns to decimals or hexa decimals.
+- layers from (5 : 7) is upper layers and other is lower.
+- layer with higher num is more intelligent and complicated.
+
