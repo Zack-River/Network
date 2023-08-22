@@ -368,22 +368,21 @@
 * Max 1 Distro in Company.
 * Max 2 Cores in Company.
 - Access -----> Core (Collapsed Core).
-- 
 - Access -----> Distro -----> Core (Normal / Standard).
-- 
 * Multi Cores -----> VLAN.
-- 
 
 ### 2- Enterprise Design Architure:
 - For big Companies.
 - Two Tier (Access - Core)(Collapsed Core).
-- 
 - Three Tier (Access - Distro - Core) (Standard).
-- 
 - Layer 2 access (STP Base) (no need layer 3)(all switches are routers).
-- 
 - Layer 3 access (Routed Access)(All Switches have IP).
-- 
+- ![routed_vs_switched](https://github.com/Zack-River/Network/assets/111385589/70eaa71d-6a8f-4a29-a248-480be2a8a9c9)
+- layer 2 depended on Macs as it works with only Switches but Layer 3 Depends on IPs as it works with Routers so Layer 3 is 
+- [Device A] --- [Layer 3 Router IP] --- [Device B]
+- [Device A] --- [Layer 2 Switch MAC] --- [Device B]
+
+
 - Simplfied Compus (VSS - Stackwise) (One is master to control and to give electricity for others).
 - 
 - SD Access.
