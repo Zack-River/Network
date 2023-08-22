@@ -358,3 +358,32 @@
 - layer with higher num is more intelligent and complicated.
 - ![OSI MODEL - TCP LAYERS](https://github.com/Zack-River/Network/assets/111385589/f47e4115-8cdf-48df-b9b6-5a04823c2c40)
 
+## How To Design a Network(Switching):
+### 1- Hierarchical Design:
+- Core(MDF -----> Main Data Frame).
+- Distribution(Main Switch).
+- Access -----> IDF(Host).
+- PC(Access) -----> Switch / Router(Distribution) -----> Company ISP(Core).
+* Max 2 Distros in area.
+* Max 1 Distro in Company.
+* Max 2 Cores in Company.
+- Access -----> Core (Collapsed Core).
+- 
+- Access -----> Distro -----> Core (Normal / Standard).
+- 
+* Multi Cores -----> VLAN.
+- 
+
+### 2- Enterprise Design Architure:
+- For big Companies.
+- Two Tier (Access - Core)(Collapsed Core).
+- 
+- Three Tier (Access - Distro - Core) (Standard).
+- 
+- Layer 2 access (STP Base) (no need layer 3)(all switches are routers).
+- 
+- Layer 3 access (Routed Access)(All Switches have IP).
+- 
+- Simplfied Compus (VSS - Stackwise) (One is master to control and to give electricity for others).
+- 
+- SD Access.
